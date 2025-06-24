@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating form</title>
+</head>
+<>
+    <!--inline tags-->
+   <input type="text" name="name" placeholder="enter your name">
+   <input type="text" name="age" placeholder="enter your age">  
+   <input type="tel" name="mobile" placeholder="enter yor modile_no." maxlength="10">
+   <input type="number" name="quantity" placeholder="enter the quantity"
+   max="45" min="1">
+   <input type="date" name="date" id="date">
+   <input type="" name="" id="">
+
+   <input type="file" name="file1" multiple accept=".jpeg,.txt">
+
+   <select name="food">
+    <option value="none">Select food items</option>
+    <option value="pasta">Pasta</option>
+    <option value="cake">Cake</option>
+    <option value="Pizza">Pizza</option>
+    <option value="cold coffee">cold coffee</option>
+   </select>
+
+   <input type="radio" name="location">jaipur
+   <input type="radio" name="location">bharatpur
+<input type="checkbox" name="" id="">golgappe  
+
+<hr>
+
+   <form action="">
+    <h2>Registration form</h2> 
+    <label for="firstname">First Name</label>
+    <input type="text" name="firstname" id="firstname">
+
+    <label for="sname">Second Name</label>
+    <input type="text" name="sname" id="sname">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" required">
+   </form>
+   
+
+   <hr>
+   <br></br>
+
+   <form action="/submit-employee" method="post">
+  <label>Full Name: <input type="text" name="fullName" required /></label>
+  <br>
+  <label>Email: <input type="email" name="email" required /></label>
+  <br>
+  <label>Department: <input type="text" name="department" /></label>
+  <br>
+  <label>Joining Date: <input type="date" name="joiningDate" /></label>
+  <br>
+  <label>Resume: <input type="file" name="resume" /></label>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
